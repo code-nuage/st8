@@ -1,16 +1,19 @@
 # `st8`
-What is `st8`?
+## What is `st8`?
+
 `st8` is a Lua library designed to simplify the management of game states in your Lua game projects. It provides an easy-to-use interface for handling different screens or modes within your game, such as menus, gameplay, and pause screens.
 
-When to use `st8`?
+## When to use `st8`?
+
 `st8` is useful when you need to manage multiple screens or states in your game. For example, if you want to display a main menu with buttons and a separate "playing" state, st8 can help you organize and transition between these states seamlessly.
 
-How to install `st8`?
+## How to install `st8`?
+
 To install `st8`, simply download the st8.lua file from the repository, place it in your project directory, and require it in your main Lua file.
 ```
 _G.st8 = require("st8")
 ```
-How to use `st8`?
+## How to use `st8`?
 
 `st8` is straightforward to use. Here's a quick guide to get you started:
 Key Functions and Methods
@@ -31,7 +34,8 @@ State Methods:
     `State:resume()`: Resumes the state, allowing it to update again.
     `State:switch()`: Switches to this state by popping the current state and pushing this one.
 
-Example Usage
+## Example Usage
+
 The following example creates three states: a "Main Menu" state, a "Playing" state, and a "Paused" state.
 
 ```
