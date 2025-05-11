@@ -10,7 +10,7 @@
 ## How to install `st8`?
 
 To install `st8`, simply download the st8.lua file from the repository, place it in your project directory, and require it in your main Lua file.
-```
+```lua
 _G.st8 = require("st8")
 ```
 ## How to use `st8`?
@@ -38,7 +38,7 @@ State Methods:
 
 The following example creates three states: a "Main Menu" state, a "Playing" state, and a "Paused" state.
 
-```
+```lua
 -- Create states
 local mainMenu = st8:new("MainMenu")
 local playing = st8:new("Playing")
